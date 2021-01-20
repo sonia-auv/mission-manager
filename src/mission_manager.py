@@ -7,7 +7,7 @@ import rospkg
 from sonia_common.srv import ListMissions, ListMissionsResponse
 
 from sonia_common.msg import MissionNameMsg
-from provider_kill_mission.msg import MissionSwitchMsg
+from sonia_common.msg import MissionSwitchMsg
 from flexbe_msgs.msg import BehaviorExecutionActionGoal
 from std_msgs.msg import Empty
 from xml.dom import minidom
