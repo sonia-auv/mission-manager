@@ -13,7 +13,7 @@
 #       ARCH: arm64
 #       TARGET_TYPE: perception-l4t
 #       TARGET_VERSION: develop
-#       IMAGE_NAME: <ENTER_YOUR_MODULE_NAME>
+#       IMAGE_NAME: mission_manager
 #       GITHUB_REMOTE_URL: docker.pkg.github.com/${{ github.repository }}
 #     steps:
 #       - uses: actions/checkout@v2

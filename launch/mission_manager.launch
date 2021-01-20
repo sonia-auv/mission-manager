@@ -1,0 +1,6 @@
+<launch>
+	<node name="missionManager"
+	    pkg="mission_manager"
+	    type="mission_manager.py"
+	    output="screen" />
+</launch>

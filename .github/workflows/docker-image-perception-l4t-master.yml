@@ -12,7 +12,7 @@
 #       BASE_IMAGE: "docker.pkg.github.com/sonia-auv/sonia_messages/sonia_messages:arm64-perception-l4t-latest"
 #       ARCH: arm64
 #       TARGET_TYPE: perception-l4t
-#       IMAGE_NAME: <ENTER_YOUR_MODULE_NAME>
+#       IMAGE_NAME: mission_manager
 #       GITHUB_REMOTE_URL: docker.pkg.github.com/${{ github.repository }}
 #     steps:
 #       - uses: actions/checkout@v2

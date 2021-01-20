@@ -13,7 +13,7 @@
 #       ARCH: x86
 #       TARGET_TYPE: perception
 #       TARGET_VERSION: feature
-#       IMAGE_NAME: <ENTER_YOUR_MODULE_NAME>
+#       IMAGE_NAME: mission_manager
 #       GITHUB_REMOTE_URL: docker.pkg.github.com/${{ github.repository }}
 #     steps:
 #       - uses: actions/checkout@v2
@@ -40,7 +40,7 @@
 #       ARCH: arm64
 #       TARGET_TYPE: perception
 #       TARGET_VERSION: feature
-#       IMAGE_NAME: <ENTER_YOUR_MODULE_NAME>
+#       IMAGE_NAME: mission_manager
 #       GITHUB_REMOTE_URL: docker.pkg.github.com/${{ github.repository }}
 #     steps:
 #       - uses: actions/checkout@v2
