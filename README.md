@@ -1,4 +1,4 @@
-# <ENTER_YOUR_NODE_NAME>
+# Mission Manager
 
 ![Docker Image CI - Master Branch](https://github.com/sonia-auv/<ENTER_YOUR_NODE_NAME>/workflows/Docker%20Image%20CI%20-%20Master%20Branch/badge.svg)
 ![Docker Image CI - Develop Branch](https://github.com/sonia-auv/<ENTER_YOUR_NODE_NAME>/workflows/Docker%20Image%20CI%20-%20Develop%20Branch/badge.svg?branch=develop)
