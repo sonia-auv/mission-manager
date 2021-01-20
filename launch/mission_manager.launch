@@ -1,5 +1,5 @@
 <launch>
-	<node name="missionManager"
+	<node name="mission_manager"
 	    pkg="mission_manager"
 	    type="mission_manager.py"
 	    output="screen" />
