@@ -9,9 +9,6 @@
                 "--directory",
                 "/home/sonia/ros_sonia_ws"
             ],
-            "problemMatcher": [
-                "$catkin-gcc"
-            ],
             "group": {
                 "kind": "build",
                 "isDefault": true

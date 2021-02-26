@@ -1,5 +1,5 @@
-#  ARG BASE_IMAGE="docker.pkg.github.com/sonia-auv/sonia_common/sonia_common:x86-perception-latest"
-ARG BASE_IMAGE="docker.pkg.github.com/sonia-auv/sonia_common/sonia_common:x86-perception-feature-mission-manager"
+ARG BASE_IMAGE="docker.pkg.github.com/sonia-auv/sonia_common/sonia_common:x86-perception-latest"
+
 
 FROM ${BASE_IMAGE}
 
@@ -25,7 +25,7 @@ ENV ENTRYPOINT_FILE=sonia_entrypoint.sh
 ENV LAUNCH_ABSPATH=${NODE_PATH}/launch/${LAUNCH_FILE}
 ENV ENTRYPOINT_ABSPATH=${NODE_PATH}/scripts/${ENTRYPOINT_FILE}
 
-ENV SONIA_WS_SETUP=${SONIA_WS}/devel/setup.bash
+ENV SNIA_WS_SETUP=${SONIA_WS}/devel/setup.bash
 
 WORKDIR ${SONIA_WS}
 
